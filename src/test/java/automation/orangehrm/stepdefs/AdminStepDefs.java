@@ -1,6 +1,6 @@
 package automation.orangehrm.stepdefs;
 
-import automation.orangehrm.pages.Admin;
+import automation.orangehrm.pages.AdminPage;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 
@@ -9,7 +9,7 @@ import java.util.List;
 
 public class AdminStepDefs {
 
-    Admin admin = new Admin();
+    AdminPage admin = new AdminPage();
 
     @When("I click on the admin tab")
     public void i_click_on_the_admin_tab() {
