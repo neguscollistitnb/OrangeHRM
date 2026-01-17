@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import java.util.Arrays;
 import java.util.List;
 
-public class Admin {
+public class AdminPage {
 
     public void clickOnAdminLink(){
         By adminLinkBy = By.xpath("(//a[@class='oxd-main-menu-item'])[1]");
